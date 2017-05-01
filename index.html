@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Infection!</title>
+    <link rel="stylesheet" type="text/css" href="./css/viral.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="./js/bundle.js"></script>
+  </head>
+
+  <body class='entire-page'>
+    <h1>BloomDemic</h1>
+
+    <h5>This JavaScript & JQuery visualization mimics the spread of Viruses, Bacteria, and Parasites </h5>
+    <h5>It is designed to also test the limits & efficiency of JQuery DOM Manipulation with self-propagating JS objects that re-assign classes</h5>
+    <div class="all-the-details">
+      <section class="detail-div">
+        <ul class="strain-detail-item">
+          <div>Viruses spread the fastest, but have the highest death rate;</div>&nbsp;
+
+        </ul class="strain-detail-item">
+
+        <br/>
+
+        <ul class="strain-detail-item">
+          <div>Bacteria spreads at a speed slower than Bacteria, but has a lower death rate;</div>&nbsp;
+        </ul class="strain-detail-item">
+
+        <br/>
+
+        <ul class="strain-detail-item">
+          <div>Parasites spread painfully slowly, but almost never experience cell death;</div>&nbsp;
+        </ul class="strain-detail-item">
+
+
+
+      </section>
+
+      <!-- <section class="strain-detail-item">
+        <p>As time passes, the shades of the virus' & bacteria will fade to a lighter shade, indicating age</p>
+        <p>The parasite will not change color or "age," and it will almost never experience death</p>
+        <p>Bacteria and Viruses experience death, which is represented by the color grey</p>
+        <p>The light green cells are normal, healthy cells. Bright green cells are cells that have fought, won, and are now immune from infection</p>
+      </section> -->
+    </div>
+
+
+    <div class="selector-figure-combo">
+      <div class="strain-selectors">
+        <button id="clear-button">Clear Grid</button>
+
+        <form action="" class="strain-picker" id="species">
+          <input type="radio" name="strain" value="virus" checked="checked">virus<br>
+          <input type="radio" name="strain" value="bacteria">bacteria<br>
+          <input type="radio" name="strain" value="parasite">parasite
+        </form>
+        <span class="instructions">Please select a contagion, then click on the grid to the right.
+        Your contagion will begin to spread! Feel free to make them compete for cells to infect!</span>
+      </div>
+
+
+      <figure class="viral"></figure>
+
+      <div class="selectors">
+          <div class="color-box-title">Non-Infected Cells: <br>
+            <label>Healthy</label><div class="color-box" style="background-color: #edf8e9"></div>
+            <label>Immune</label><div class="color-box" style="background-color: #238b45"></div>
+            <label>Dead</label><div class="color-box" style="background-color: #636363"></div>
+          </div>
+          <div class="color-box-title">Virus Cells: <br>
+            <label>Youngest</label> <div class="color-box" style="background-color: #de2d26"></div>
+            <label>Middle Aged</label><div class="color-box" style="background-color: #e6550d"></div>
+            <label>Oldest</label><div class="color-box" style="background-color: #fdae6b"></div>
+          </div>
+      </div>
+
+          <br>
+      <div class="selectors">
+          <div class="color-box-title">Bacteria Cells: <br>
+            <label>Youngest</label><div class="color-box" style="background-color: #08519c"></div>
+            <label>Middle Aged</label><div class="color-box" style="background-color: #3182bd"></div>
+            <label>Oldest</label><div class="color-box" style="background-color: #6baed6"></div>
+          </div>
+          <br>
+          <div class="color-box-title">Parasite Cells: <br>
+            <label>All Cells:</label><div class="color-box" style="background-color: #54278f"></div>
+          </div>
+      </div>
+
+    </div>
+
+
+  </body>
+</html>

@@ -1,0 +1,174 @@
+html, body, figure, figcaption, ul, li, h5 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  text-align: inherit;
+}
+
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bold;
+  background-color: #f9f9f9
+}
+
+ul:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+li {
+  float: left;
+  width: 5px;
+  height: 5px;
+  border-radius: 5px;
+  margin: 0;
+  padding: 0;
+  background-color: #edf8e9;
+}
+
+#clear-button {
+  max-height: 60px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.viral {
+  display: inline-block;
+  border: 2.5px solid black;
+  min-height: 500px;
+  min-width: 500px;
+  max-height: 500px;
+  max-width: 500px;
+}
+
+.selector-figure-combo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-clip: padding-box;
+  position: relative;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  background-color: #d9f0a3;
+}
+
+.instructions {
+  font-size: 14px;
+  word-wrap: break-word;
+}
+
+.selectors {
+  padding-right: 15px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  max-width: 550px;
+  min-width: 100px;
+}
+
+.color-box {
+  padding: 3px;
+  height: 20px;
+  width: 20px;
+  margin: 5px auto;
+  border: 1px solid black;
+}
+
+.color-box-title {
+    font-size: 14px;
+    padding-left: 3px;
+    padding-right: 3px;
+    height: 250px;
+}
+
+.strain-selectors {
+  padding-right: 15px;
+  max-width: 200px;
+  align-content: flex-end;
+}
+
+.all-the-details {
+  display: flex;
+  flex-flow: column;
+  font-size: 14px;
+}
+
+.strain-detail-item {
+  display: inline-flex;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+.immune {
+  background-color: #238b45 !important;
+}
+
+.virus {
+  background-color: #de2d26;
+}
+
+.v1 {
+  background-color: #e6550d;
+}
+
+.v2 {
+  background-color: #fdae6b;
+}
+
+.v3 {
+  background-color: #636363;
+}
+
+
+
+
+.bacteria {
+  background-color: #08519c;
+}
+
+
+.b1 {
+  background-color: #3182bd;
+}
+
+.b2 {
+  background-color: #6baed6;
+}
+
+.b3 {
+  background-color: #636363;
+}
+
+
+
+
+
+
+.parasite {
+  background-color: #54278f;
+}
+
+
+.p1 {
+  background-color: #54278f;
+}
+
+.p2 {
+  background-color: #54278f;
+}
+
+.p3 {
+  background-color: #636363;
+}
